@@ -1,0 +1,17 @@
+{
+  "name": "convert-sheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-server": "npm install --prefix server",
+    "setup-client": "npm install --prefix client",
+    "setup": "npm run setup-server && npm run setup-client",
+    "start-server": "npm run start --prefix server",
+    "start-client": "npm run dev --prefix client"
+  },
+  "keywords": [],
+  "author": "Samuel Amagbakhen",
+  "license": "ISC"
+}
